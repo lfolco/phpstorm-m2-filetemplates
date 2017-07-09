@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="${MENU_ID}" title="${MENU_TITLE}" translate="title" module="${MODULE}" sortOrder="${SORT_ORDER}"
+             parent="${PARENT_MENU_ID}" action="${ROUTE_PATH}" resource="${ACL_RESOURCE}" />
+    </menu>
+</config>

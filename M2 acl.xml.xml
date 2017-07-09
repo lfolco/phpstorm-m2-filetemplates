@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="${VENDOR}_${MODULE}::${RESOURCE_ID}" title="${TITLE}" translate="title" sortOrder="${SORT_ORDER}" />
+            </resource>
+        </resources>
+    </acl>
+</config>
