@@ -9,7 +9,7 @@ Useful file templates for working with Magento 2.
 Place them in ~/Library/Preferences/PhpStorm[VERSION]/fileTemplates
 
 ### Windows
-Place them in [SYSTEM DRIVE]\Users\[USER ACCOUNT NAME]\.PhpStorm[VERSION]
+Place them in [SYSTEM DRIVE]\Users\[USER ACCOUNT NAME]\.PhpStorm[VERSION]\config\fileTemplates
 
 ### Linux
 Place them in ~/.PhpStorm[VERSION]
