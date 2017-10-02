@@ -1,6 +1,6 @@
 <?php
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    '${MODULE_NAME}',
+    '${VendorName_ModuleName}',
     __DIR__
 );
