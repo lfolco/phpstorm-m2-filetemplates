@@ -7,4 +7,5 @@
             <module name="${VendorName_ModuleName}" />
         </route>
     </router>
+
 </config>
