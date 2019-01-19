@@ -3,9 +3,6 @@
     xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
 
     <router id="${Router_ID}">
-        <route id="${Route_ID}" frontName="${Front_Name}">
-            <module name="${VendorName_ModuleName}" />
-        </route>
     </router>
 
 </config>
