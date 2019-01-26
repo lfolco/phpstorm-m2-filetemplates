@@ -4,7 +4,7 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="${Resource_ID}" title="${Title}" translate="title" sortOrder="${Sort_Order}" />
+                
             </resource>
         </resources>
     </acl>
