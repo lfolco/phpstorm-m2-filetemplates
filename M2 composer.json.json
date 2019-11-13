@@ -2,7 +2,7 @@
   "name": "${Composer_Package_Name}",
   "description": "N/A",
   "require": {
-    "magento/framework": "^101.0.6"
+    "magento/framework": "#if(${Magento_Framework_Version_Latest_If_Blank} != "")${Magento_Framework_Version_Latest_If_Blank}#else^102.0.3#end"
   },
   "type": "magento2-module",
   "version": "0.1.0",
