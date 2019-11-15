@@ -1,5 +1,7 @@
+#set($Composer_Vendor_Name = ${Vendor_Name})
+#set($Composer_Module_Name = ${Module_Name})
 {
-  "name": "${Composer_Package_Name}",
+  "name": "${Composer_Vendor_Name.toLowerCase()}/module-${Composer_Module_Name.toLowerCase()}",
   "description": "N/A",
   "require": {
     "magento/framework": "#if(${Magento_Framework_Version_Latest_If_Blank} != "")${Magento_Framework_Version_Latest_If_Blank}#else^102.0.3#end"
