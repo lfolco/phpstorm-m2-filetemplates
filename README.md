@@ -6,13 +6,16 @@ Useful file templates for working with Magento 2.
 ## To install, place the files directly in the appropriate folder. Note that [Version] corresponds to the version of PhpStorm you have installed.
 
 ### Mac OS
-Place them in ~/Library/Preferences/PhpStorm[VERSION]/fileTemplates/
+PhpStorm 2020 or newer: ~/Library/Application Support/JetBrains/PhpStorm[VERSION]
+PhpStorm 2019 and below: ~/Library/Preferences/PhpStorm[VERSION]/fileTemplates/
 
 ### Windows
-Place them in [SYSTEM DRIVE]\Users\[USER ACCOUNT NAME]\.PhpStorm[VERSION]\config\fileTemplates/
+PhpStorm 2020 or newer: %USERPROFILE%\AppData\Roaming\JetBrains\PhpStorm[VERSION]
+PhpStorm 2019 and below: %USERPROFILE%\.PhpStorm[VERSION]\config\fileTemplates/
 
 ### Linux
-Place them in ~/.PhpStorm[VERSION]/config/fileTemplates/
+PhpStorm 2020 or newer: ~/.config/JetBrains/PhpStorm[VERSION]
+PhpStorm 2019 and below: ~/.PhpStorm[VERSION]/config/fileTemplates/
 
 Create the directories if they are not present.
 
