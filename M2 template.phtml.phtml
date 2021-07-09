@@ -1,4 +1,7 @@
 <?php
-#parse("PHP File Header.php") ?>
+#parse("PHP File Header.php")
+// phpcs:disable Generic.Files.LineLength.TooLong
 
-#if(${Block_Class} != "") <?php /** @var ${Block_Class} \$block */ ?>#else<?php /** @var \Magento\Framework\View\Element\Template \$block */ ?>#end
+#if(${Block_Class} != "") /** @var ${Block_Class} \$block */#else/** @var \Magento\Framework\View\Element\Template \$block */#end
+/** @var \Magento\Framework\Escaper $escaper */
+?>
